@@ -11,6 +11,6 @@ The HTML file (plp.html) structures the pricing page, while the CSS file (plp.cs
 2. Open the plp.html file in a web browser to view the pricing page.
 3. Explore the subscription plans .
 # Technologies Used
-HTML
-CSS
-JavaScript
+* HTML
+* CSS
+* JavaScript
