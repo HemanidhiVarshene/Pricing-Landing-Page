@@ -11,10 +11,7 @@ body {
 }
 
 header {
-    background-image: url("./b4.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #14b5d5, #90afe5);
     padding: 20px;
     text-align: center;
 }
@@ -74,4 +71,14 @@ header {
 
 .cta:hover {
     background-color: #0056b3;
+}
+footer {
+    background: linear-gradient(to right, #14b5d5, #90afe5);
+    font-size: 15px;
+    color: #1c1c1c;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
