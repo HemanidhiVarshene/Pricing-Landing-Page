@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 222, 223);
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-image: url("./b4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.pricing-plan {
+    
+    padding: 20px;
+    border-radius: 5px;
+    border-style:groove;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+}
+
+.pricing-plan h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #403c46;
+    margin-bottom: 20px;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cta {
+    background-color: #007bff;
+    color: #f4efef;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
