@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="plp.css">
+</head>
+<body >
+    <header>
+        <h1>Pricing Page</h1>
+        <p>Choose the plan that suits your needs!</p>
+    </header>
+    
+        <div class="currency-selection">
+            <p>Choose your currency and units:</p>
+            <div class="dropdowns">
+                <select id="currency-select" title="Currency" onchange="updateCurrencyAndUnits()"></select>
+                <select id="units-select" title="Units" onchange="updateCurrencyAndUnits()"></select>
+            </div>
+        </div>
+        <section class="pricing-table">
+            <div class="pricing-plan">
+                <h2>Basic</h2>
+                <p data-price="9.99" class="price">$9.99</p>
+                <p class="description">Monthly plan</p>
+                <ul class="features">
+                    <li>24/7 Customer Support</li>
+                    <li id="d">Basic Analytics Dashboard</li>
+                    <li id="d">Premium Data Security</li>
+                </ul>
+                <button class="cta">Choose Plan</button>
+            </div>
+            <div class="pricing-plan">
+                <h2>Pro</h2>
+                <p data-price="19.99" class="price">$19.99</p>
+                <p class="description">Monthly plan</p>
+                <ul class="features">
+                    <li>24/7 Customer Support</li>
+                    <li>Basic Analytics Dashboard</li>
+                    <li id="d">Premium Data Security</li>
+                </ul>
+                <button class="cta">Choose Plan</button>
+            </div>
+            <div class="pricing-plan">
+                <h2>Enterprise</h2>
+                <p data-price="40.99" class="price">$49.99</p>
+                <p class="description">Monthly plan</p>
+                <ul class="features">
+                    <li>24/7 Customer Support</li>
+                    <li>Basic Analytics Dashboard</li>
+                    <li>Premium Data Security</li>
+                </ul>
+                <button class="cta">Choose Plan</button>
+            </div>
+        </section>
+    <script src="plp.js"></script>
+    <footer>
+        <div class="footer-container">
+            <p class="copy">&copy; 2024 MotionCut</p>
+        </div>
+    </footer>
+</body>
+</html>
