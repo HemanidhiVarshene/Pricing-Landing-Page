@@ -5,7 +5,7 @@
 Subscription Plans: Three distinct subscription plans - Basic, Pro, and Enterprise, each offering different features.
 Responsive Design: The pricing page is responsive, ensuring a seamless experience across various devices and screen sizes.
 # Implementation
-The HTML file (plp.html) structures the pricing page, while the CSS file (.css) provides a visually appealing and consistent layout. 
+The HTML file (plp.html) structures the pricing page, while the CSS file (plp.css) provides a visually appealing and consistent layout. 
 # How to Use
 Clone the repository to your local machine.
 Open the plp.html file in a web browser to view the pricing page.
